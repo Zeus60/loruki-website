@@ -121,10 +121,11 @@
   padding: 1rem 2rem;
   font-weight: bold;
   margin: 15px 0;
+  font-size: 1.3rem;
 }
 
 .alert i {
-  margin-right: 1rem;
+  margin-right: 10px;
 }
 
 .alert-success {
