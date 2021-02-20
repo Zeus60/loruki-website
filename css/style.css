@@ -79,7 +79,7 @@ pre {
   color: #fff;
   padding: 10px;
   margin: 0 5px;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
 }
 
 .navbar a:hover {
@@ -110,11 +110,11 @@ pre {
 .showcase .grid {
   overflow: visible;
   grid-template-columns: 55% auto;
-  gap: 30px;
+  gap: 40px;
 }
 
 .showcase-text {
-  animation: slideInFromLeft 1s ease-in;
+  animation: slideInFromLeft 0.75s ease-in;
 }
 
 .showcase-form {
@@ -125,7 +125,7 @@ pre {
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
-  animation: slideInFromRight 1s ease-in;
+  animation: slideInFromRight 0.75s ease-in;
 }
 
 .showcase-form .form-control {
@@ -163,7 +163,7 @@ pre {
 /* Stats */
 .stats {
   padding-top: 100px;
-  animation: slideInFromBottom 1s ease-in;
+  animation: slideInFromBottom 0.75s ease-in;
 }
 
 .stats-heading {
@@ -184,6 +184,7 @@ pre {
 .cli .grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
+  margin-bottom: 50px;
 }
 
 .cli .grid > *:first-child {
